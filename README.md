@@ -34,3 +34,21 @@ To evaluate a trained model on Pong, run the following command:
 cd IBP
 python evaluate.py --env PongNoFrameskip-v4 --load-path <model-path> --fgsm --pgd --nominal --acr
 ```
+
+## Citation
+```shell
+@InProceedings{li2024towards,
+  title = 	 {Towards Optimal Adversarial Robust Q-learning with Bellman Infinity-error},
+  author =       {Li, Haoran and Zhang, Zicheng and Luo, Wang and Han, Congying and Hu, Yudong and Guo, Tiande and Liao, Shichen},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {29324--29372},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24cl/li24cl.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/li24cl.html}
+}
+```
