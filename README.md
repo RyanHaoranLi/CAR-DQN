@@ -1,12 +1,12 @@
 # CAR-DQN Reference Implementation: Towards Optimal Adversarial Robust Q-learning with Bellman Infinity-error
 
 This repository contains a reference implementation for Consistent Adversarial Robust Deep
-Q Networks (CAR-DQN). See our paper ["Towards Optimal Adversarial Robust Q-learning with Bellman Infinity-error"](https://arxiv.org/abs/2402.02165) for more details. This paper has been accepted by **ICML 2024** as an **oral** presentation.
+Q Networks (CAR-DQN). See our paper ["Towards Optimal Adversarial Robust Q-learning with Bellman Infinity-error"](https://arxiv.org/abs/2402.02165) for more details. This paper has been accepted by [**ICML 2024**](https://proceedings.mlr.press/v235/li24cl.html) as an [**oral**](https://icml.cc/virtual/2024/oral/35463) presentation.
 
 Our PGD version code is based on the [SA-DQN](https://github.com/chenhongge/SA_DQN) codebase and the IBP version code is based on the [RADIAL-DQN](https://github.com/tuomaso/radial_rl_v2) codebase.
 
 ## Requirements
-To run our code you need to have Python 3 (>=3.7) and pip installed on your systems. Additionally we require PyTorch>=1.4, which should be installed using instructions from https://pytorch.org/get-started/locally/.
+To run our code you need to have Python 3 (>=3.7) and pip installed on your systems. Additionally, we require PyTorch>=1.4, which should be installed using instructions from https://pytorch.org/get-started/locally/.
 
 To install requirements:
 
